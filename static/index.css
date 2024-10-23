@@ -1,0 +1,228 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 430px;
+}
+
+.u-header {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.u-logo {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+
+.u-text-1 {
+  position: absolute; /* Positioning absolut */
+  top: 70px; /* Menempelkan ke atas */
+  right: 15px; /* Menempelkan ke kanan, sesuaikan dengan padding container */
+  text-align: right;
+  margin: 0;
+}
+
+.u-background {
+  position: relative;
+  background-image: url("images/bg-amikom.jpg"); /* Gambar latar belakang */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(60px); /* Efek blur pada latar belakang */
+    z-index: 0; /* Memastikan background di bawah konten */
+    margin-bottom: 30px;
+}
+
+.u-sheet {
+  position: relative; /* Memastikan konten berada di atas background */
+  z-index: 1; /* Memastikan konten di atas background */
+  padding: 20px; /* Tambahkan padding untuk memberi ruang pada konten */
+  background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang untuk konten */
+  border-radius: 30px; /* Tambahkan border-radius jika diinginkan */
+}
+
+.card {
+  width: 250px;
+  height:600px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.team-container { /* Nama kelas baru untuk container pusat */
+  width: 80%; /* Sesuaikan lebar sesuai kebutuhan */
+  margin: 0 auto; /* Memusatkan container secara horizontal */
+}
+
+.u-section-1 .u-repeater-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-list-item-1,
+.u-section-1 .u-list-item-2,
+.u-section-1 .u-list-item-3,
+.u-section-1 .u-list-item-4 {
+    display: flex; /* Menggunakan flexbox untuk konten dalam layout */
+    flex-direction: column; /* Mengatur arah flex */
+    justify-content: center; /* Memastikan konten berada di tengah vertikal */
+    align-items: center; /* Memastikan konten berada di tengah horizontal */
+    width: 100%;
+    max-width: 300px; /* Sesuaikan dengan kebutuhan */
+    margin: 0 auto;
+}
+
+.u-section-1 .u-container-layout-1,
+.u-section-1 .u-container-layout-2,
+.u-section-1 .u-container-layout-3,
+.u-section-1 .u-container-layout-4 {
+  display: flex; /* Menggunakan flexbox untuk konten dalam layout */
+  flex-direction: column; /* Mengatur arah flex */
+  justify-content: center; /* Memastikan konten berada di tengah vertikal */
+  align-items: center; /* Memastikan konten berada di tengah horizontal */
+  padding: 15px;
+}
+
+.u-image-11 {
+  width: 2px; /* Adjust the width as needed */
+  height: 1px; /* Adjust the height as needed */
+}
+
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-2,
+.u-section-1 .u-image-3,
+.u-section-1 .u-image-4 {
+    width: 240px; /* Lebar gambar */
+    height: 280px; /* Tinggi gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    margin-right: 10px ; /* Memusatkan gambar */
+    padding: 15px;
+}
+
+/* .u-section-1 .u-image-3 {
+  object-position: 50% 94.17%;
+} */
+
+.u-section-1 .u-text-2,
+.u-section-1 .u-text-5,
+.u-section-1 .u-text-8 {
+  text-transform: uppercase;
+  /* font-size: 1.5 rem; */
+  font-size: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.u-section-1 .u-text-3,
+.u-section-1 .u-text-6,
+.u-section-1 .u-text-9 {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-4,
+.u-section-1 .u-text-7,
+.u-section-1 .u-text-10 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-style: italic;
+  padding: 5px;
+}
+
+.u-section-1 .u-social-icons-1,
+.u-section-1 .u-social-icons-2,
+.u-section-1 .u-social-icons-3 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-icon-1,
+.u-section-1 .u-icon-2,
+.u-section-1 .u-icon-3,
+.u-section-1 .u-icon-4,
+.u-section-1 .u-icon-5,
+.u-section-1 .u-icon-6,
+.u-section-1 .u-icon-7,
+.u-section-1 .u-icon-8,
+.u-section-1 .u-icon-9,
+.u-section-1 .u-icon-10,
+.u-section-1 .u-icon-11,
+.u-section-1 .u-icon-12 {
+  height: 100%;
+}
+
+.u-section-1 .u-text-11 {
+  font-style: normal;
+  text-align: left;
+  margin: 3px auto 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(4, 20%);
+    min-height: 456px;
+    grid-auto-columns: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(4, 20%);
+    min-height: 1048px;
+    grid-auto-columns: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+    grid-auto-columns: 100%;
+  }
+
+  .u-section-1 .u-container-layout-1,
+  .u-section-1 .u-container-layout-2,
+  .u-section-1 .u-container-layout-3,
+  .u-section-1 .u-container-layout-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
